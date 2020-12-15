@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>marlowe rocks</title>
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script>
+		window.onload = function () {
+			let toConvert = document.getElementsByClassName('markdown');
+			for (let i = 0; i < toConvert.length; i++) {
+				toConvert[i].innerHTML = marked(toConvert[i].innerHTML);
+			}
+		}
+	</script>
+</head>
+<body>
+	<main class="markdown">
+
+
+
+
+
+
+
+	
+
+
+# i am marlowe
+
+'sup ladies. **Marlowe** be the name, **streaming high quality educational content** be the game. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</main>
+</body>
+</html>
