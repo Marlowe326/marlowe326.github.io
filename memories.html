@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>marlowe rocks</title>
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script>
+		window.onload = function () {
+			let toConvert = document.getElementsByClassName('markdown');
+			for (let i = 0; i < toConvert.length; i++) {
+				toConvert[i].innerHTML = marked(toConvert[i].innerHTML);
+			}
+		}
+	</script>
+	<style>
+		main {
+			font-family: sans-serif;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 1.5em;
+			max-width: 35em;
+		}																				
+		 h1 {
+                  text-align:center;
+                 }
+		img {
+			max-width:100%;
+		}
+		
+	</style>
+</head>
+<body>
+	<main class="markdown">
+ hi hello
+	</main>
+</body>
+</html>
