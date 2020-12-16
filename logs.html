@@ -2,33 +2,20 @@
 <html>
 <head>
 	<title>marlowe rocks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-	<script>
-		window.onload = function () {
-			let toConvert = document.getElementsByClassName('markdown');
-			for (let i = 0; i < toConvert.length; i++) {
-				toConvert[i].innerHTML = marked(toConvert[i].innerHTML);
-			}
-		}
-	</script>
-	<style>
-		main {
-			font-family: sans-serif;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 1.5em;
-			max-width: 35em;
-		}																				
-		 h1 {
-                  text-align:center;
-                 }
-		img {
-			max-width:100%;
-		}
-		
-	</style>
+	<script src="Markdowntohtml2999.js"></script>
+	<link rel="stylesheet" href="Marlowe'sexystyle.css">
+	
 </head>
 <body>
+	<nav> 
+		<a href="index.html">Home</a>
+		<a href="memories.html">mEmories</a>
+		<a href="logs.html" class="tabselect">loGs</a>
+		<a href="skills.html">skiLls</a>
+		<a href="contacts.html">contActs</a>
+	</nav>
 	<main class="markdown">
 
 yoyo
