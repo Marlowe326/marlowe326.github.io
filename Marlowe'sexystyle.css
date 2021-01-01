@@ -27,6 +27,7 @@ h1 a {
 img {
 	max-width:100%;
 	cursor:grab;
+	box-shadow:5px 5px;
 }
 
 nav {	
