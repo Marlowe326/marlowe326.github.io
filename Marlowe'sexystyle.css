@@ -84,6 +84,9 @@ a:hover {
 	background-color: #55EEA3;
 }
 
+a.discrete:hover {
+	background: none;
+}
 
 	
 
